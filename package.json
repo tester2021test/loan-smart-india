@@ -2,12 +2,15 @@
   "name": "loan-smart-india",
   "private": true,
   "version": "0.0.0",
+  "homepage": "[https://tester2021test.github.io/loan-smart-india/](https://tester2021test.github.io/loan-smart-india/)",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"      
   },
   "dependencies": {
     "lucide-react": "^0.561.0",
@@ -25,6 +28,7 @@
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
+    "gh-pages": "^6.3.0",
     "globals": "^15.11.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.19",
